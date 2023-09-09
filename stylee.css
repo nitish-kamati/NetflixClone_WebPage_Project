@@ -1,0 +1,97 @@
+
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0b0a0ae1;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a0d0d;
+    font-weight: bolder;
+}
+
+.user-profile img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+.hero {
+    background-image: url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 5%;
+}
+
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.featured {
+    padding: 50px 5%;
+}
+
+.featured-content {
+    display: flex;
+    overflow: scroll;
+}
+
+.content-item {
+    margin-right: 20px;
+}
+
+.content-item img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgba(225, 16, 16, 0.932);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+}
+
+footer p {
+    font-size: 16px;
+    opacity: 0.7;
+}
